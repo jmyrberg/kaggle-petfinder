@@ -1,9 +1,9 @@
 # Solution for Kaggle Petfinder Adoption Prediction challenge
 
-![Petfinder Adoption Prediction](https://storage.googleapis.com/kaggle-competitions/kaggle/10686/logos/thumb76_76.png)
+![Petfinder Logo](petfinder-logo.png)
 This repository contains Top 2% (31st place) solution for [Petfinder Adoption Prediction Challenge at Kaggle](https://www.kaggle.com/c/petfinder-adoption-prediction).
 
-The main elements of the solution (*Final model 1 - Best LB.ipynb*):
+The main elements of the solution (*Final model 1 - Best LB.ipynb*) are described in the following.
 
 Feature engineering
 * Image features: image vectors taken from Xception and NASNetLarge, height of the image
