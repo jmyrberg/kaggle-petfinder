@@ -6,6 +6,7 @@
 This repository contains Top 2% (31st place) solution for [Petfinder Adoption Prediction competition at Kaggle](https://www.kaggle.com/c/petfinder-adoption-prediction).
 
 **Description from Kaggle**
+
 In this competition you will be developing algorithms to predict the adoptability of pets - specifically, how quickly is a pet adopted? If successful, they will be adapted into AI tools that will guide shelters and rescuers around the world on improving their pet profiles' appeal, reducing animal suffering and euthanization.
 
 **Solution** (*Final model - Best LB.ipynb*)
