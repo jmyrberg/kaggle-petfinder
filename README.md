@@ -19,7 +19,7 @@ The following features were engineered:
 Three layers of models were used, where out-of-fold predictions from previous layers were passed to the next:
 1. "Feature-engineering" models: LinearRegression on PCA-transformed NASNet-features, ExtraTreesRegressor on SVD-transformed Xception-features
 2. 3 models: LightGBM (LGBM) on image and text features, LGBM on non-image features, LGBM on all features. Mean out-of-fold probability at RescuerID-level is calculated at this level, and passed to the next.
-3. 3 models: LGBM on all features, CatBoostRegressor on all features, and bagged BayesianRidge on only level 1 out-of-fold predictions
+3. 3 models: LGBM on all features, CatBoostRegressor on all features, and bagged BayesianRidge on only level 2 out-of-fold predictions
 4. The final prediction is the mode of layer 3 predictions
     
 Note that the notebooks here are just for inspiration - if you wan't to run them yourself with the data, it is recommended to sign up on Kaggle and fork the [original kernel](https://www.kaggle.com/jmyrberg/final-model-1-best-lb-31-lb?scriptVersionId=12101619).
